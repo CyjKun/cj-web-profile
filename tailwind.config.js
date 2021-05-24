@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      spaceing: {
+      spacing: {
         0.5: "0.5px",
       },
       colors: {
@@ -30,6 +30,19 @@ module.exports = {
       },
       borderWidth: {
         1: "1px",
+      },
+      keyframes: {
+        typewriter: {
+          "from": {
+            width: "0",
+          },
+          "to": {
+            width: "24em",
+          },
+        },
+      },
+      animation: {
+        typewriter: "typewriter 4s steps(44) 1s 1 normal both",
       },
     },
   },
